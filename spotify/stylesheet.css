@@ -1,0 +1,104 @@
+*{
+    margin: 0px 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color:  rgba(3, 3, 3, 0.918);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.navbar{
+    background-color: black;
+    width: 100%;
+   
+    
+    
+}
+.navbar img{
+    height: 40px;
+  
+    
+   
+}
+.navbar li{
+    color: white;
+    list-style: none;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+}
+.container{
+    background-color: black;
+    height: 450px;
+    width: 1100px;
+    margin: 34px 0px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    border: 2px slid  rgba(24, 23, 23, 0.918) ;
+    
+}
+.songbar{
+   height: 80px;
+    background-color: black;
+    width: 100%;
+    bottom: 0%;
+    position: sticky;
+    margin-bottom: 0px;
+
+}
+.font{
+    color:whitesmoke;
+    font-size: 1.2rem;
+}
+.song{
+    margin: 12px 16px;
+    height: 180px;
+    width: 150px;
+    align-items: center;
+    background-color: rgba(24, 23, 23, 0.918);
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+.song img{
+    height: 140px;
+    width:110px ;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+.songs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid  rgba(36, 34, 34, 0.918) ;
+    border-radius: 12px;
+    margin: 6px 8px;
+}
+.songbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+#progressbar{
+    width: 75%;
+}
+.songbar img{
+    height: 40px;
+    margin-top: 6px;
+}
+
+
